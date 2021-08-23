@@ -1,0 +1,13 @@
+In this kernel twitter data sentiment mining techniques used from this dataset:
+https://www.kaggle.com/kazanova/sentiment140
+
+Steps:
+1. Load data
+2. Clean and remove unnecessary URLs, emojis, usernames, short words, stopwords, remove words with consecutive characters and other unneccessary words.
+3. Convert twitts to lovercase.
+4. Vectorize with TF-IDF
+5. Create 3 different models for sentiment prediction.
+6. Evaluate models.
+7. Choose one model.
+8. Use best model for headline classification
+
